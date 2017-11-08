@@ -1,0 +1,64 @@
+/*homepage */
+img {
+	 position: relative;
+	 padding: 20px;
+	 max-width:100%;
+	 height: auto;
+
+}
+
+#testing {
+	position: relative;
+	width:100%;
+}
+
+h2 {
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+}
+.menu-items {
+	text-align: center;
+	
+}
+
+.item {
+	font-size: 50px;
+
+}
+button {
+	opacity: 1.1;
+
+}
+
+.btn-responsive {
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
+  
+@media (max-width: 768px) {
+  .btn-responsive {
+    padding:2px 4px;
+    font-size:80%;
+    line-height: 1;
+    border-radius:3px;
+  }
+  
+}
+
+
+/*Log In*/
+label {
+	padding: 20px;
+	
+}
+.login {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.row {
+	text-align: center;
+}
+

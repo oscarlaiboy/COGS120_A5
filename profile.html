@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Profile</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+        <!-- scripts section -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="home.html">AppName</a>
+		    </div>
+		  </div>
+		</nav>
+
+		<nav class="navbar navbar-default navbar-fixed-bottom">
+		  <div class="container-fluid">
+		    <ul class="nav navbar-nav">
+		      <li><a href="home.html">Home</a></li>
+		      <li class="active"><a href="profile.html">Profile</a></li>
+		      <li><a href="faves.html">Favorites</a></li>
+		      <li><a href="search.html">Search</a></li>
+		    </ul>
+		  </div>
+		</nav>
+
+		<div class="container">
+		  <h3>&nbsp;</h3>
+<!-- 		  <form> -->
+			<div class="container">
+			  	<h3>Profile</h3>
+			  	<img style="width: 50%; height:30px;" alt="Insert Profile Image Here"/>
+			</div>
+			  
+
+			  <div class="container">
+			  	<h4>Account Settings</h4>
+			  	<div><a href="#" id="change-pass">Change Password</a></div>
+			  	<div><a href="#" id="change-name">Change Name</a></div>
+
+			  </div>
+			  <div class="container">
+			  	<h4> Other Settings</h4>
+			  	<div>
+			  		<b>Language: </b> 
+			  		<select>
+			  			<option>English</option>
+			  			<option>Spanish</option>
+			  		</select>
+			  	</div>
+			  	<div>
+			  		<b>Font Size: </b> 
+			  		<select>
+			  			<option>Small</option>
+			  			<option>Medium</option>
+			  			<option>Large</option>
+			  		</select>
+			  	</div>
+			  </div>
+	</div>
+	<script>
+		$("#change-name").click(function(){
+			alert("change name");
+		});
+		$("#change-pass").click(function(){
+			alert("change pass");
+		});
+	</script>
+	</body>
+</html>
