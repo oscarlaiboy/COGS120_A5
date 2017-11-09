@@ -13,30 +13,42 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<nav class="navbar navbar-default navbar-fixed-top">
-		  <div class="container-fluid">
-		    <div class="navbar-header">
-		   
-		      <a class="navbar-brand" style="text-align: center" href="home.html">AppName</a>
 
-		    </div>
-		  </div>
-		</nav>
 
-		<nav class="navbar navbar-default navbar-fixed-bottom">
-		  <div class="container-fluid">
-		    <ul class="nav navbar-nav">
-		      <li class="active"><a href="home.html">Home</a></li>
-		      <li><a href="profile.html">Profile</a></li>
-		      <li><a href="faves.html">Favorites</a></li>
-		      <li><a href="search.html">Search</a></li>
-		    </ul>
-		  </div>
-		</nav>
+    <!-- Navigation --> 
+    <nav>
+        <ul class="main-menu list-unstyled">
+<li><a href="#" id="nav-close"><img src="img/close.png"></a></li>        
+            <li class="items">
+                <a href="profile.html" style="padding-left: 250px">Profile</a>
+            </li>
+             <li class="items">
+                <a href="faves.html" style="padding-left: 100px">Favorites</a>
+            </li>
+        </ul>
+    </nav>
 
-		<div class="container">
-		  <h3>&nbsp;</h3>
+    <!-- Logo & Hamburger Menu -->
+    <div class="navbar navbar-custom navbar-fixed-top">      
+        <a class="navbar-brand" href="index.html" style="color: #fff; padding-left: 50px">APP NAME</a>
+        <div class="navbar-header pull-right">
+            <a id="nav-expander" class="nav-expander fixed">
+                <button type="button" class="navbar-toggle hamburger-menu" data-toggle="collapse" data-target="main-menu"><i class="fa fa-bars"></i></button>
+            </a>
+        </div>
+    </div>    
+
+
+
+		<!-- hero image -->
+		<div class="container" style="padding-bottom: 50px; padding-top: 100px">
+		<div class="col-lg-12">
+				<img src="https://www.tellwut.com/uploads/media/image/249327e1478545763o2298.jpg" width="100%">
+		</div>		
+		</div>
+		
 		<!--  <form> -->
+			<!--
 			<div class="container">
 		  	<input type="text" placeholder="Search..." style="width:90%"></input>
 		  	<a href="search.html"><button>Search</button></a>
@@ -77,65 +89,41 @@
 			</div>
 			  </ul>
 			</div>
-		</div>
-			<!-- hero image -->
-			<div class="col-lg-12 col-sm-12">
-				<img src="https://www.tellwut.com/uploads/media/image/249327e1478545763o2298.jpg">
 			</div>
-
-		
-				
+			-->
 		  <!-- </form> -->
 		  	
-				<h2>The Best foods all around you. See whats in store at each restaurant!</h2>
+				<h2>The Best foods all around you prepared at your convenience!</h2>
 			
+		<div class="container" style="padding-bottom: 100px">
+		  <h3>&nbsp;</h3>
+
 		
-		<h3>&nbsp;</h3>
 			<h3>&nbsp;</h3>
 
 		
 			<div class="menu-items">
-				<!--
-					<a class="text-center" href="category.html"><img src="http://boredfastfood.com/wp-content/uploads/2015/01/hams-egg-cheesy-bread-roll-quick-healthy-kid-camping-food-recipe-ideas.jpg" height="300" width="300"></a>
-
-					<button><figure><img src="http://boredfastfood.com/wp-content/uploads/2015/01/hams-egg-cheesy-bread-roll-quick-healthy-kid-camping-food-recipe-ideas.jpg" height="300" width="300"><figcaption>Quick</figcaption></figure></button>
-
-					<button>
-						<div class="menu-items"><a class="text-center" href="category.html">Quick</a></div>
-						<img src="http://boredfastfood.com/wp-content/uploads/2015/01/hams-egg-cheesy-bread-roll-quick-healthy-kid-camping-food-recipe-ideas.jpg" alt="The Rock" height="300" width="300"> 
-					</button>
-				-->	  <div class="row">
+				  <div class="row">
 					 <div class="col-md-6 col-sm-6 col-xs-6">
-					<a class="item" href="fastfood.html"><button class="btn-responsive" style=" height:300px; width: 300px; background-image: url('http://cdn-02.independent.ie/incoming/article29992362.ece/c2238/AUTOCROP/h342/app-stock-junk-food.jpg'); background-size: 150%; color: white">Fast</button></a>
+					<a class="item" href="fastfood.html"><button class="btn-responsive" style=" height:300px; width: 300px; background-color: #C8E6C9; color: black"> < 10 min </button></a>
 					</div>
 					
 					 <div class="col-md-6 col-sm-6 col-xs-6">
-					<a class="item" href="quickfood.html"><button class="btn-responsive" style=" height:300px; width: 300px;  background-image: url('https://www.bbcgoodfood.com/sites/default/files/styles/category_retina/public/recipe-collections/collection-image/2013/05/frying-pan-pizza-easy-recipe-collection.jpg?itok=bFcXYPVV'); background-size: 120%; color: white ">Quick</button></a>
+					<a class="item" href="fastfood.html"><button class="btn-responsive" style=" height:300px; width: 300px; background-color: #C8E6C9; color: black ">10-25min</button></a>
 					</div>
+
 					</div>
 					<h3>&nbsp;</h3>
 					  <div class="row">
 					 <div class="col-md-6 col-sm-6 col-xs-6">
-					<a class="item" href="healthyfood.html"><button class="btn-responsive" style=" height:300px; width: 300px;  background-image: url('http://img.huffingtonpost.com/asset/scalefit_630_noupscale/58b7e08d1a00003400f41275.jpeg?cache=J7IxmNvgTj'); background-size: 150%; color: white ">Healthy</button></a>
+					<a class="item" href="fastfood.html"><button class="btn-responsive" style=" height:300px; width: 300px; background-color: #C8E6C9; color: black ">25-40min</button></a>
 					</div>
 					
 					 <div class="col-md-6 col-sm-6 col-xs-6">
-					<a class="item" href="asianfood.html"><button class="btn-responsive" style=" height:300px; width: 300px; background-image: url('http://yummyyummyaz.com/images/banner03.jpg'); background-size: 200%; color: white">Asian</button></a>
+					<a class="item" href="fastfood.html"><button class="btn-responsive" style=" height:300px; width: 300px; background-color: #C8E6C9; color: black"> > 40 min </button></a>
 					</div>
-					</div>
-					<h3>&nbsp;</h3>
-					  <div class="row">
-					 <div class="col-md-6 col-sm-6 col-xs-6">
-					<a class="item" href="italianfood.html"><button class="btn-responsive" style=" height:300px; width: 300px; background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0a/17/d5/b6/italian-food-fresh-and.jpg'); background-size: 100%; color: white">Italian</button></a>
 					</div>
 					
-					 <div class="col-md-6 col-sm-6 col-xs-6">
-					<a class="item" href="dessertfood.html"><button class="btn-responsive" style=" height:300px; width: 300px; background-image: url('https://assets.merriam-webster.com/mw/images/article/art-wap-landing-mp-lg/dessert-2483-9868d94aaad5a2a2f7753c13ce6b71f9@1x.jpg'); background-size: 150%; color: white">Dessert</button></a>
-					</div>
-					</div>
-
-
-		
 
 			</div>
 		

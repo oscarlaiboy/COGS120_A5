@@ -1,10 +1,8 @@
 /*homepage */
 img {
 	 position: relative;
-	 padding: 20px;
 	 max-width:100%;
 	 height: auto;
-
 }
 
 #testing {
@@ -62,3 +60,304 @@ label {
 	text-align: center;
 }
 
+
+/*----------------------------------------------- 
+
+  2. Nav Bar 
+
+------------------------------------------------*/
+
+a.nav-expander {
+  background: none repeat scroll 0 0 transparent;
+  color: #FFFFFF;
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  height: 50px;
+  margin-right: 0;
+  padding: 1em 1.6em 2em;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 0;
+  transition: right 0.3s ease-in-out 0s;
+  z-index: 12;
+  transition: right 0.3s ease-in-out 0s;
+  -webkit-transition: right 0.3s ease-in-out 0s;
+  -moz-transition: right 0.3s ease-in-out 0s;
+  -o-transition: right 0.3s ease-in-out 0s;
+
+}
+
+a.nav-expander:hover {
+  cursor: pointer;
+}
+
+a.nav-expander.fixed {
+  position: fixed;
+}
+a.
+
+.nav-expanded a.nav-expander.fixed {
+    right: 20em;
+}
+.nav-expanded ul{
+    width: 100%;
+}
+
+.nav-expanded li.items{
+    border-bottom:1px solid #888;
+    width: 100%;
+      margin-left:0;
+}
+.nav-expanded nav{
+    width: 40%;
+}
+
+nav {
+  background: transparent;
+  display: block;
+  overflow: auto;
+  position: fixed;
+  
+  font-size: 15px;
+  top: 0;
+  width: 70%;
+  z-index: 2000;
+  transition: right 0.3s ease-in-out 0s;
+  -webkit-transition: right 0.3s ease-in-out 0s;
+  -moz-transition: right 0.3s ease-in-out 0s;
+  -o-transition: right 0.3s ease-in-out 0s;
+}
+
+@media (max-width: 750px) {
+  nav {
+    background-color: rgba(48, 51, 58, 1);
+    width: 70%;
+    right: -55em;
+    height: 100%;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+}
+.nav-expanded nav {
+  right: 0;
+}
+
+body.nav-expanded {
+  margin-left: 0em;
+  transition: right 0.4s ease-in-out 0s;
+  -webkit-transition: right 0.4s ease-in-out 0s;
+  -moz-transition: right 0.4s ease-in-out 0s;
+  -o-transition: right 0.4s ease-in-out 0s;
+}
+
+#nav-close {
+  font-family: "futura-pt",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  right: 30px;
+  top:10px;
+  display: none;
+}
+
+.main-menu {
+    padding-top: 12px;
+    float: left;
+}
+.sidebar-brand{
+    position:fixed;
+    top:0;
+    left:0;
+}
+.sidebar-brand a{
+    text-decoration: none;
+    font-size: 1.8em;
+}
+.main-menu li {
+    display: inline;
+    font-size: 18px;
+    padding: 12px;
+    /*text-shadow: 2px 2px 5px #000000;*/
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+
+}
+
+@media (max-width: 800px) {
+  .main-menu li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 750px) {
+  .main-menu {
+    float: left;
+  }
+  .main-menu li {
+    display: block;
+    margin-left: 20px;
+    font-size: 18px;
+    padding: 12px;
+    text-shadow: none;
+  }
+  #nav-close {
+    display: block;
+  }
+  .main-menu li a {
+    line-height: 50px;
+  }
+}
+
+.main-menu li a {
+  color: #f4f4f4;
+  text-decoration: none;
+  line-height: 50px;
+}
+
+.main-menu li a:hover {
+  color: rgba(10, 100, 255, 1);
+  text-decoration: none;
+}
+
+.main-menu li .sub-nav {
+  border-bottom: 0px;
+  padding: 4px;
+}
+
+.main-menu a .caret {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  vertical-align: top;
+  border-top: 4px solid #4f5963;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  content: "";
+  margin-top: 8px;
+}
+
+.main-menu a:hover .caret {
+  border-top-color: #4f5963;
+}
+
+.main-menu li.open > a > .caret {
+  border-top: none;
+  border-bottom: 4px solid #4f5963;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.main-menu li.open > a:hover > .caret {
+  border-bottom-color: #4f5963;
+}
+.main-menu li a.active {
+  color: rgba(231, 220, 82, 1);
+}
+
+.icon:before {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+  content: '\f105';
+}
+
+.main-menu li > a > span.icon {
+  float: right;
+  margin: 0.1em 1.7em -0.1em 0;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+}
+
+.main-menu li > a:hover > span.icon {
+  float: right;
+  margin: 0.1em 0.8em -0.1em 0;
+  opacity: 1;
+}
+
+.navbar-custom {
+  margin: 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #2b3037;
+  font-weight: 500;
+  letter-spacing: 3px;
+  width: 100%;
+}
+
+.navbar {
+  min-height: 80px;
+}
+
+.navbar-custom .container {
+  width: 100%;
+}
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
+  outline: none;
+}
+.navbar-custom .navbar-brand {
+  font-weight: 600;
+   z-index: 99999999999999;
+}
+.navbar-custom .navbar-brand:focus {
+  outline: none;
+}
+.navbar-custom a {
+  color: white;
+}
+.navbar-custom .nav li a {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  line-height: 50px;
+}
+.navbar-custom .nav li a:hover {
+  color: rgba(231, 220, 82, 1);
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li.active {
+  outline: none;
+}
+.navbar-custom .nav li a.active {
+  color: rgba(231, 220, 82, 1);
+}
+.navbar-custom .nav li.active a:hover {
+  /*color: #fff;*/
+}
+/* Desktop */
+@media (min-width: 750px) {
+  .navbar-custom {
+    padding: 10px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: #607D8B;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    background: #0D47A1;
+  }
+}
