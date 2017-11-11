@@ -167,7 +167,7 @@ body.nav-expanded {
 
 .main-menu {
     padding-top: 12px;
-    float: left;
+    float: center;
 }
 .sidebar-brand{
     position:fixed;
@@ -351,7 +351,7 @@ body.nav-expanded {
     padding: 10px 0;
     border-bottom: none;
     letter-spacing: 1px;
-    background: #607D8B;
+    background: #64B5F6;
     -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
