@@ -361,3 +361,23 @@ body.nav-expanded {
     background: #0D47A1;
   }
 }
+
+
+/*menu page */
+.one {
+  width: 75%;
+  margin-left: 10%;
+}
+
+.right {
+  text-align: right;
+}
+
+td {
+    padding: 10px;
+  text-align: left;
+  vertical-align: bottom;
+  color: #00253c;
+  background-color:transparent;
+
+}
